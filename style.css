@@ -1,0 +1,7 @@
+/*flex*/
+.d-flex{
+	display:flex;
+}
+.flex-bettween{
+	justify-content: space-between;
+}
