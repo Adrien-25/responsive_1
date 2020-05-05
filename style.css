@@ -86,9 +86,9 @@ p{
 	margin-top:57px;
 	margin-bottom:36.1px;
 }
-.tab-content{
-	margin-top: 1.03125rem;
-	margin-bottom: 3.15625rem;
+
+.tab_text-layout{
+	margin: 1.03125rem auto 3.15625rem auto;
 }
 .tab_text{
 	width:12.75rem;
