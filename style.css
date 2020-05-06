@@ -68,6 +68,9 @@ p{
 }
 
 /*Mise en page*/
+body{
+	margin: 0;
+}
 .title_text{
 	width:46rem;
 }
@@ -93,4 +96,36 @@ p{
 .tab_text{
 	width:12.75rem;
 }
+
+/*RESPONSIVE*/
+@media screen and (max-width:1180px){
+	.main_content{
+		width:596px;
+	}
+	.tab_layout{
+		flex-wrap: wrap;
+	}
+	.responsive{
+		margin-bottom: 30px;
+	}
+
+}
+@media screen and (max-width:650px){
+	.main_content{
+		width:596px;
+	}
+	.tab_layout{
+		flex-direction: column;
+		align-items: center;
+	}
+	.title_text{
+		width:23rem;
+	}
+	.responsive_mobile{
+		margin-bottom:30px ;
+	}
+
+
+}
+
 
