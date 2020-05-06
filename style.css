@@ -63,7 +63,6 @@ p{
 
 /*largeur*/
 .w-69{
-	/*width:60.9375%;*/
 	width:73.125rem;
 }
 
@@ -94,38 +93,38 @@ body{
 	margin: 1.03125rem auto 3.15625rem auto;
 }
 .tab_text{
-	width:12.75rem;
+	width:67.6%;
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width:1180px){
+@media screen  and (max-width:1200px){
+	html{
+		font-size: 200%;
+	}
 	.main_content{
-		width:596px;
+		width:95%;
 	}
 	.tab_layout{
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	.responsive{
-		margin-bottom: 30px;
+		margin-bottom: 2rem;
 	}
-
-}
-@media screen and (max-width:650px){
-	.main_content{
-		width:596px;
+	.tab_items{
+		width: 45%;
+	}
+	.tab_text{
+		width: 90%;
 	}
 	.tab_layout{
-		flex-direction: column;
-		align-items: center;
+		margin-top: 3rem;
 	}
-	.title_text{
-		width:23rem;
+	.title_layout{
+		margin-top:2rem;
 	}
-	.responsive_mobile{
-		margin-bottom:30px ;
-	}
-
 
 }
+
 
 
